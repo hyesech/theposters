@@ -24,7 +24,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://hyesech.github.io/theposters/",
+  "homepage": "https://hyesech.github.io/theposters",
   "eslintConfig": {
     "extends": [
       "react-app",
