@@ -1,1 +1,1 @@
-export default () => "FUCK";
+export default () => "HAPPY PRRRREEEETTTTYYYY HOMEEEE HONEY";
