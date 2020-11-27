@@ -22,7 +22,7 @@ export default class extends React.Component {
         params: { id },
       },
       history: { push },
-      location: { pathname },
+      // location: { pathname },
     } = this.props;
     const parsedId = parseInt(id);
     if (isNaN(parsedId)) {
