@@ -18,12 +18,12 @@ export default () => (
     <>
       <Header />
       <Switch>
-        <Route path="/theposters/" exact component={Home} />
-        <Route path="/theposters/movie" exact component={Movie} />
-        <Route path="/theposters/tv" exact component={TV} />
-        <Route path="/theposters/search" component={Search} />
-        <Route path="/theposters/movie/:id" component={Detail} />
-        <Route path="/theposters/tv/:id" component={Detail} />
+        <Route path="/" exact component={Home} />
+        <Route path="/movie" exact component={Movie} />
+        <Route path="/tv" exact component={TV} />
+        <Route path="/search" component={Search} />
+        <Route path="/movie/:id" component={Detail} />
+        <Route path="/tv/:id" component={Detail} />
         <Redirect from="*" to="/" />
       </Switch>
     </>
