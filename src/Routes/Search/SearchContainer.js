@@ -12,12 +12,25 @@ export default class extends React.Component {
     loading: false,
   };
 
-  handleSubmit = () => {
+  // javascript 기본 이벤트 삭제해야 함. 가로챌 것임.
+  handleSubmit = (event) => {
+    event.preventDefault();
+
     const { searchTerm } = this.state;
     if (searchTerm !== "") {
       this.searchByTerm();
     }
   };
+
+  // 검색시 searchTerm state 변경
+  updateTerm = (event) => {
+    const {
+      target: { value },
+    } = event;
+    console.log(value);
+    this.setState({ searchTerm: value });
+  };
+
   searchByTerm = async () => {
     const { searchTerm } = this.state;
     try {
@@ -54,6 +67,7 @@ export default class extends React.Component {
         error={error}
         loading={loading}
         handleSubmit={this.handleSubmit}
+        updateTerm={this.updateTerm}
       />
     );
   }
