@@ -5,14 +5,15 @@ import styled from "styled-components";
 const Container = styled.div``;
 
 const Title = styled.span`
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 600;
 `;
 
 const Grid = styled.div`
-  margin-top: 25px;
+  margin: 2.5rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 125px);
+  grid-gap: 25px;
 `;
 
 const Section = ({ title, children }) => (

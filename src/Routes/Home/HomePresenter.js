@@ -1,6 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
+import Loader from "../../Components/Loader";
 import Section from "../../Components/Section";
 
 const Container = styled.div`
@@ -8,7 +9,9 @@ const Container = styled.div`
 `;
 
 const HomePresenter = ({ nowPlaying, upComing, popular, error, loading }) =>
-  loading ? null : (
+  loading ? (
+    <Loader />
+  ) : (
     <Container>
       {nowPlaying && nowPlaying.length > 0 && (
         <Section title="Now Playing">Movies</Section>
