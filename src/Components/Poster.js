@@ -9,7 +9,7 @@ const Container = styled.div`
 
 const Image = styled.div`
   background-image: url(${(props) => props.bgUrl});
-  height: 180px;
+  height: 230px;
   background-size: cover;
   border-radius: 4px;
   background-position: center center;
@@ -44,7 +44,10 @@ const ImageContainer = styled.div`
 
 const Title = styled.span`
   display: block;
-  margin-bottom: 3px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
 `;
 
 const Year = styled.span`
