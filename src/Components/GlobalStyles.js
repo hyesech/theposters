@@ -16,7 +16,11 @@ const GlobalStyles = createGlobalStyle`
         background-color: rgba(20, 20, 20, 1);
         color: white;
         padding-top: 80px;
+        -ms-overflow-style: none;
+        ::-webkit-scrollbar { display: none;}
     }
+    
+
 `;
 
 export default GlobalStyles;
