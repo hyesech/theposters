@@ -18,12 +18,33 @@ export default () => (
     <>
       <Header />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/movie" exact component={Movie} />
-        <Route path="/tv" exact component={TV} />
-        <Route path="/search" component={Search} />
-        <Route path="/movie/:id" component={Detail} />
-        <Route path="/tv/:id" component={Detail} />
+        <Route
+          path="https://hyesech.github.io/theposters/"
+          exact
+          component={Home}
+        />
+        <Route
+          path="https://hyesech.github.io/theposters/movie"
+          exact
+          component={Movie}
+        />
+        <Route
+          path="https://hyesech.github.io/theposters/tv"
+          exact
+          component={TV}
+        />
+        <Route
+          path="https://hyesech.github.io/theposters/search"
+          component={Search}
+        />
+        <Route
+          path="https://hyesech.github.io/theposters/movie/:id"
+          component={Detail}
+        />
+        <Route
+          path="https://hyesech.github.io/theposters/tv/:id"
+          component={Detail}
+        />
         <Redirect from="*" to="/" />
       </Switch>
     </>
