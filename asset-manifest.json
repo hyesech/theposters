@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/theposters/static/js/main.e5ebcb0b.chunk.js",
+    "main.js.map": "/theposters/static/js/main.e5ebcb0b.chunk.js.map",
+    "runtime-main.js": "/theposters/static/js/runtime-main.0d2bef1f.js",
+    "runtime-main.js.map": "/theposters/static/js/runtime-main.0d2bef1f.js.map",
+    "static/js/2.04ebf303.chunk.js": "/theposters/static/js/2.04ebf303.chunk.js",
+    "static/js/2.04ebf303.chunk.js.map": "/theposters/static/js/2.04ebf303.chunk.js.map",
+    "index.html": "/theposters/index.html",
+    "static/js/2.04ebf303.chunk.js.LICENSE.txt": "/theposters/static/js/2.04ebf303.chunk.js.LICENSE.txt",
+    "static/media/default-poster.jpg": "/theposters/static/media/default-poster.626303cb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d2bef1f.js",
+    "static/js/2.04ebf303.chunk.js",
+    "static/js/main.e5ebcb0b.chunk.js"
+  ]
+}
