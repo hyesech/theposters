@@ -32,8 +32,8 @@ const Content = styled.div`
 `;
 
 const Cover = styled.div`
-  width: 30%;
-  height: 100%;
+  width: 50%;
+  max-height: 90%;
   background-image: url(${(props) => props.bgImg});
   background-position: center center;
   background-size: cover;
@@ -41,17 +41,18 @@ const Cover = styled.div`
 `;
 
 const Data = styled.div`
-  width: 70%;
-  margin-left: 10px;
+  width: 80%;
+  margin-left: 2rem;
   z-index: 1;
 `;
 
 const Title = styled.h3`
-  font-size: 32px;
+  font-size: 1.5rem;
+  font-weight: bold;
 `;
 
 const ItemContainer = styled.div`
-  margin: 20px 0;
+  margin: 1rem 0;
 `;
 
 const Item = styled.span``;
@@ -61,9 +62,9 @@ const Divider = styled.span`
 `;
 
 const Overview = styled.p`
-  font-size: 12px;
+  font-size: 1rem;
   opacity: 0.7;
-  line-height: 1.5;
+  line-height: 1.5rem;
   width: 50%;
 `;
 
